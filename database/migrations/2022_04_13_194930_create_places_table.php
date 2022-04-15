@@ -18,10 +18,8 @@ class CreatePlacesTable extends Migration
 
             $table-> string('name');
             $table-> text('Descrption');
-
             $table->string('image');
             $table->unsignedBigInteger("cities_id");
-            $table->timestamps();
 
             $table->index('cities_id');
         });

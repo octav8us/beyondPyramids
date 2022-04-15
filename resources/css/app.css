@@ -17,3 +17,248 @@
 {
     transition: all 1s ease;
 }
+.navbar1 {
+    height: 20px;
+}
+.btn {
+    margin: 15px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #fca311;
+    font-family: optima;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+}
+
+.botton {
+    text-align: justify;
+}
+.button:hover {
+    border: white;
+
+    color: #808080;
+}
+.button:focus {
+    padding: 9px 19px;
+}
+.navbar3 {
+    color: #000;
+}
+
+.buttons {
+    height: 10px;
+    width: 15;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 30px;
+    text-align: left;
+    text-align: justify;
+    color: #14213d;
+    font-family: optima;
+    border: none;
+    background-color: rgb(112, 112, 112, 0);
+}
+
+.buttons:hover {
+    border: white;
+
+    color: rgb(20, 33, 61, 0.5);
+}
+.buttons:focus {
+    padding: 9px 19px;
+}
+
+.buttonn {
+    background-color: #14213d;
+    border: none;
+    color: rgb(214, 15, 15);
+    padding: 15px;
+    margin: 10px;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button5 {
+    border-radius: 50%;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700);
+* {
+    box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:300,700");
+*,
+*::before,
+*::after {
+    box-sizing: content-box;
+}
+
+body {
+    font-family: optima;
+    font-weight: 300;
+}
+.container {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.basic-example {
+    display: flex;
+}
+
+.text p:target {
+    background: red;
+}
+
+.buttoon {
+    font-family: optima;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #fca311;
+    padding: 0.5em 1.25em;
+}
+
+.portfolio {
+    border-radius: 15px;
+    display: grid;
+    grid: auto / repeat(auto-fit, minmax(15em, 1fr));
+    grid-gap: 1em;
+    background: white;
+    padding: 4em 2em;
+}
+
+.portfolio__item {
+    width: 100%;
+    border-radius: 15px;
+    position: relative;
+    flex-basis: 30%;
+    margin: 0;
+    padding: 0;
+    background: #e5e5e5;
+    height: 530px;
+}
+
+.portfolio__desc {
+    padding: 1.5em;
+}
+
+.portfolio__title {
+    font-family: optima;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.portfolio__image,
+.portfolio-lightbox__image {
+    width: 100%;
+    display: block;
+}
+
+.portfolio-lightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0, 1);
+    transition: transform 100ms linear;
+    transform-origin: right;
+
+    position: fixed;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+}
+
+.portfolio-lightbox:target {
+    transform: scale(1, 1);
+    transform-origin: left;
+}
+
+.portfolio-lightbox__content {
+    height: 75%;
+    padding: 0.5em;
+    background: white;
+    position: fixed;
+}
+.buttoon {
+    background-color: #f5f5f5;
+    border: none;
+    color: #fdba4d;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: none;
+}
+.buttoon:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color: #808080;
+}
+.buttoon:focus {
+    border: 1px solid #4885ed;
+    padding: 9px 19px;
+}
+
+.portfolio__lightbox__image {
+    margin-bottom: 50em;
+}
+
+.close {
+    position: fixed;
+    right: 16em;
+    top: 2em;
+    border: white 1px solid;
+    display: flex;
+    width: 2em;
+    height: 2em;
+    background: #fca311;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.close::after {
+    content: "x";
+    color: white;
+}
+h3 {
+    color: #14213d;
+}
+p {
+    color: #14213d;
+}

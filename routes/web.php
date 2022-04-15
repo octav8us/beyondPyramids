@@ -14,13 +14,15 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/cities/create', [App\Http\Controllers\CitiesController::class, 'index']CitiesController::class, 'index'])->name('home');
-Route::get('/places/create', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/cities/create', [App\Http\Controllers\CitiesController::class, 'create']);
+
+Route::post('/p','App\Http\Controllers\CitiesController@store');
+Route::get('/places/create', [App\Http\Controllers\placesController::class, 'create']);
 
 
