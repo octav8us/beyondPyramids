@@ -1,8 +1,8 @@
-@extends('layouts.app')
+     @extends('layouts.app')
 
 @section('content')
     <div class="container">
-        <form action="/p" enctype="multipart/form-data" method="POST">
+        <form action="/city/post" enctype="multipart/form-data" method="POST">
             @csrf
 
             <div class="row">
@@ -14,7 +14,7 @@
 
 
 
-                        <label for="name" class="col-md-4 col-form-label ">city Description</label>
+                        <label for="name" class="col-md-4 col-form-label ">city name</label>
 
                         <input id="name"
                                type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}"  autocomplete="name">

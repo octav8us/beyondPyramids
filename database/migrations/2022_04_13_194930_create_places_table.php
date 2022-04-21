@@ -19,7 +19,13 @@ class CreatePlacesTable extends Migration
             $table-> string('name');
             $table-> text('Descrption');
             $table->string('image');
+            $table->string('type');
+            $table->string('link');
+
             $table->unsignedBigInteger("cities_id");
+
+
+
 
             $table->index('cities_id');
         });

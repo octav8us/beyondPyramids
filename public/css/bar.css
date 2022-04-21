@@ -1,0 +1,123 @@
+.navbar1 {
+    height: 20px;
+}
+.btn {
+    margin: 15px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: #fca311;
+    font-family: optima;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.grid {
+    height: 23px;
+    position: relative;
+    bottom: 4px;
+}
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bar {
+    height: 35px;
+    width: 500px;
+    border-radius: 40px;
+    border: 1px solid #dcdcdc;
+}
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+.searchbar {
+    position: absolute;
+    border-radius: 40px;
+    height: 33px;
+    border: none;
+    width: 498px;
+    font-size: 16px;
+    outline: none;
+}
+.voice {
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    bottom: 15px;
+}
+
+.botton {
+    text-align: justify;
+}
+.button:hover {
+    border: white;
+
+    color: #808080;
+}
+.button:focus {
+    padding: 9px 19px;
+}
+.navbar3 {
+    color: #000;
+}
+
+.buttons {
+    height: 10px;
+    width: 15;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-left: 30px;
+    text-align: left;
+    text-align: justify;
+    color: #14213d;
+    font-family: optima;
+    border: none;
+    background-color: rgb(112, 112, 112, 0);
+}
+
+.buttons:hover {
+    border: white;
+
+    color: rgb(20, 33, 61, 0.5);
+}
+.buttons:focus {
+    padding: 9px 19px;
+}
+
+.buttonn {
+    background-color: #14213d;
+    border: none;
+    color: rgb(214, 15, 15);
+    padding: 15px;
+    margin: 10px;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button5 {
+    border-radius: 50%;
+}

@@ -10,11 +10,12 @@ use Illuminate\Database\Eloquent\Model;
 class Cities extends Model
 {
     protected $guarded =[];
+    public $timestamps = false;
 
 
     public function places(){
 
-        return $this -> hasMany(places::class);
+        return $this -> hasMany(Places::class);
 
     }
 

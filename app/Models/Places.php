@@ -7,6 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class Places extends Model
 {
+
+    protected $guarded = [];
+
+    public $timestamps = false;
+
     public function cities(){
 
         return $this ->belongsTo(Cities::class);
