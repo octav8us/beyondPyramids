@@ -17,7 +17,7 @@ class CreatePlacesTable extends Migration
             $table->id();
 
             $table-> string('name');
-            $table-> text('Descrption');
+            $table-> text('Description');
             $table->string('image');
             $table->string('type');
             $table->string('link');

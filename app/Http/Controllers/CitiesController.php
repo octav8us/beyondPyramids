@@ -36,7 +36,7 @@ public function create(){
 
         $image_path= request()->file('image')->store('uploads', 'public');
         $image =Image::make("storage/{$image_path}");
-        $image->fit(1200,1200);
+        $image->fit(550,400);
         $image->save();
 
         Cities::create([

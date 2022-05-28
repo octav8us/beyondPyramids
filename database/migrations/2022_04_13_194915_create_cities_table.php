@@ -17,6 +17,7 @@ class CreateCitiesTable extends Migration
             $table->id();
             $table-> string('name');
             $table->string('image');
+            $table->integer('views')->default(0);
             $table-> text('Description');
 
         });

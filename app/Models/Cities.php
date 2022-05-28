@@ -18,6 +18,10 @@ class Cities extends Model
         return $this -> hasMany(Places::class);
 
     }
+    public function UserFavourited (){
+
+        return $this -> belongsToMany(User::class);
+    }
 
 
     use HasFactory;

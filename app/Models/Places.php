@@ -19,6 +19,11 @@ class Places extends Model
 
     }
 
+    public function userFavourited (){
+
+        return $this -> belongsToMany(User::class);
+    }
+
 
     use HasFactory;
 }

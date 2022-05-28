@@ -39,7 +39,7 @@ class placesController extends Controller
         $city->places()-> create([
 
             'name' =>$data['name'],
-            'Descrption' =>$data['Description'],
+            'Description' =>$data['Description'],
             'image' =>$image_path,
             'type'=> $data['type'],
             'link' =>$data['link']
